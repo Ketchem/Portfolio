@@ -30,6 +30,13 @@ html, body, .viewport {
     width: 100%;
 }
 
+.clsImg{
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
 .flex-row{
     align-items: center;
     justify-content: center;
@@ -43,7 +50,18 @@ html, body, .viewport {
 }
 
 #splashscreen {
-    background: #2e6da4;
+    background: #333333;
     height: 100%;
     width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+#splashimage{
+    padding-left: 50px;
+    height: auto;
+    width: 100%;
+    max-width: 1300px;
+    max-height: 700px;
+    align-items: center;
+    justify-content: center;
 }

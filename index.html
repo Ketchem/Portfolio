@@ -37,16 +37,42 @@
         </div> <!-- end .container --
     </nav> <!-- end navigation bar --
     -->
-   <div class="jumbotron">
-       <h1 class="display-4">Hello World.</h1>
-       <p class="lead">Test Paragraph.</p>
-   </div>
+
+
+
+
+    <nav class= "navbar">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span> <!-- Used for screen readers for accessibility -->
+                    <span class="glyphicon glyphicon-menu-hamburger"></span>
+                    <span class="menu"> Menu</span>
+                </button>
+                <a class="navbar-brand" href="#">Brian Ketchem</a>
+            </div>
+
+            <div id="navbar" class="collapse navbar-collapse"> <!-- Links to include in navbar -->
+                <ul class="nav navbar-nav">  <!-- Unordered list for links on navbar -->
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="connect.html">Connect</a></li>
+                </ul>
+            </div> <!-- end .navbar-collapse -->
+        </div> <!-- end .container -->
+    </nav> <!-- end navigation bar -->
 
 
     <div id = "splashscreen" class="flex-container">
         <div id="flex-item" class="flex-container flex-row">
+            <img src="assets/splashimage.png" id="splashimage"/>
             <h2>Lets Go...</h2>
         </div>
+    </div>
+
+    <div class="jumbotron">
+        <h1 class="display-4">Hello World.</h1>
+        <p class="lead">Test Paragraph.</p>
     </div>
 
     <script type = "text/javascript" src="lib/jquery-3.3.1.min.js"></script>

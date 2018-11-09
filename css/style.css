@@ -65,3 +65,14 @@ html, body, .viewport {
     align-items: center;
     justify-content: center;
 }
+
+.jumbotron{
+    background-image: url("../assets/banner3.png");
+    text-align: left;
+}
+
+#banner
+{
+    background: transparent;
+    color: black;
+}

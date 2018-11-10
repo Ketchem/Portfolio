@@ -70,7 +70,7 @@ html, body, .viewport {
 
 /*********** Banner **********************/
 .jumbotron{
-    background-image: url("../assets/banner3.png");
+    background-image: url("../assets/banner3-100.jpg");
     text-align: left;
 }
 
@@ -84,8 +84,17 @@ html, body, .viewport {
 /********** Resume *******************/
 #resume{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .rescol{
-    width:50%
+    width:50%;
+}
+
+#col1{
+    width:45%;
+}
+
+#col2 {
+    padding-left: 50px;
 }

@@ -1,0 +1,12 @@
+html, body, .viewport {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.center{
+    text-align: center;
+    display:inline-block;
+    float: none;
+    justify-content: center;
+}

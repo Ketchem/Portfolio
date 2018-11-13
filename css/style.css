@@ -37,6 +37,16 @@ html, body, .viewport {
     width: 100%;
     background: #333333;
 }
+
+#splashimage{
+    padding-left: 20px;
+    height: auto;
+    width: 100%;
+    max-width: 1300px;
+    max-height: 700px;
+    align-items: center;
+    justify-content: center;
+}
 /*************END SPLASHSCREEN***************/
 
 /*********** Banner **********************/

@@ -1,11 +1,18 @@
-/****SPLASHSCREEN*****/
 html, body, .viewport {
     width: 100%;
     height: 100%;
     margin: 0;
 }
 
-.flex-container {
+/****SPLASHSCREEN*****/
+#flex-item {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+#splashscreen {
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-box;
@@ -28,43 +35,7 @@ html, body, .viewport {
     left: 0;
     height: 100%;
     width: 100%;
-}
-
-.clsImg{
-    height: 100%;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-}
-
-.flex-row{
-    align-items: center;
-    justify-content: center;
-}
-
-
-#flex-item {
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-}
-
-#splashscreen {
     background: #333333;
-    height: 100%;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-}
-#splashimage{
-    padding-left: 50px;
-    height: auto;
-    width: 100%;
-    max-width: 1300px;
-    max-height: 700px;
-    align-items: center;
-    justify-content: center;
 }
 /*************END SPLASHSCREEN***************/
 
@@ -72,6 +43,11 @@ html, body, .viewport {
 .jumbotron{
     background-image: url("../assets/banner3-100.jpg");
     text-align: left;
+    width: 100%;
+}
+
+.display-4{
+    font-size: 30pt;
 }
 
 #banner
@@ -87,14 +63,8 @@ html, body, .viewport {
     flex-wrap: wrap;
 }
 
-.rescol{
-    width:50%;
-}
+/*****************************************/
 
-#col1{
-    width:45%;
-}
+.col-md-4{
 
-#col2 {
-    padding-left: 50px;
 }

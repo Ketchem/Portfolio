@@ -51,14 +51,28 @@ html, body, .viewport {
 
 /*************NAVBAR*************************/
 
+.center{
+    text-align: center;
+    display:inline-block;
+    float: none;
+    justify-content: center;
+}
+
+#navbar{
+    text-align: center;
+    justify-content: center;
+}
 /*************END NAVBAR*********************/
 
 /**************BANNER**********************/
 .jumbotron{
-    background-image: url("../assets/banner3-100.jpg");
+    background-image: url("../assets/Banner3-100.jpg");
     text-align: left;
-    width: 100%;
+    color: #fff;
+    padding: 2%;
+    //width: 100%;
 }
+
 
 .display-4{
     font-size: 30pt;
@@ -96,3 +110,4 @@ html, body, .viewport {
     height: auto;
     max-height: 400px;
 }
+

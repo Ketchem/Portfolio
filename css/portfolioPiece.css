@@ -4,18 +4,11 @@ html, body, .viewport {
     margin: 0;
 }
 
-.center{
-    text-align: center;
-    display:inline-block;
-    float: none;
-    justify-content: center;
-}
-
-.jumbotron{
+/*.jumbotron{
     background:lightgreen;
     text-align: left;
     display:flex;
-}
+}*/
 
 .display-4{
     font-size: 30pt;
@@ -59,4 +52,24 @@ html, body, .viewport {
     width: 100%;
     align-items: center;
     justify-content: center;
+}
+
+.img-responsive{
+    width: 100%;
+    height: auto;
+}
+
+#bmmap{
+    max-width: 1000px;
+}
+#diainfo{
+
+}
+
+#mtmfestival{
+
+}
+
+#nzbike{
+
 }

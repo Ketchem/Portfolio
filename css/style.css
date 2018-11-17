@@ -111,3 +111,16 @@ html, body, .viewport {
     max-height: 400px;
 }
 
+#col1{
+    width: 75%;
+    float: left;
+}
+
+#col2{
+    width: 25%;
+    float: right;
+}
+
+#sidebar{
+    height: 400px;
+}

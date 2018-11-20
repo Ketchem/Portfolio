@@ -131,3 +131,30 @@ html, body, .viewport {
 #sidebar{
     height: 400px;
 }
+
+#twittericon{
+    max-height: 200px;
+    max-width: 200px;
+    display:block;
+    margin:auto;
+}
+
+#linkedin{
+    max-height: 200px;
+    max-width: 200px;
+    display:block;
+    margin:auto;
+    padding-top: 50px;
+}
+
+#facebook{
+    max-height: 200px;
+    max-width: 200px;
+    display:block;
+    margin:auto;
+    padding-top: 50px;
+}
+
+#social{
+    justify-items: center;
+}

@@ -118,6 +118,10 @@ html, body, .viewport {
     max-height: 400px;
 }
 
+#diainfo{
+    max-width: 1600px;
+}
+
 #col1{
     width: 75%;
     float: left;
@@ -130,6 +134,7 @@ html, body, .viewport {
 
 #sidebar{
     height: 400px;
+    text-align: left;
 }
 
 #twittericon{

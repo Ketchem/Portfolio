@@ -10,3 +10,12 @@ html, body, .viewport {
     float: none;
     justify-content: center;
 }
+
+#navbar{
+    text-align: center;
+    justify-content: center;
+}
+
+.navbar{
+    padding-top: 5px;
+}

@@ -70,12 +70,14 @@ html, body, .viewport {
 /**************BANNER**********************/
 .jumbotron{
     background-image: url("../assets/Banner3-100.jpg");
+    /*background-image: url("../assets/shoreline.jpg");*/
     text-align: center;
     color: #fff;
     padding: 2%;
-    //width: 100%;
+    /*width: 100%;*/
+    height: 25%;
 }
-
+/*Photo by Pablo García Saldaña on Unsplash*/
 
 .display-4{
     font-size: 30pt;
